@@ -24,7 +24,7 @@ The code has been tested on Ubuntu 16.04 and Ubuntu 18.04, with gcc 7.5.
 Clone the repository:
 
 ```
-git clone git@github.com:wwtx9/IROS.git
+git clone https://github.com/ApdowJN/RTDense3DMapping.git
 ```
 
 To build our pipeline:
@@ -162,16 +162,3 @@ The poses file must adhere to the following format:
 ```
             
 If any of the formats change, the changes must be propagated to the data loading function in the `src/util.cpp` file.
-
-# Citation
-If you find our code or [our paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10160266) useful,  please cite 
-```
-@inproceedings{10160266,
-  author={Wang, Weihan and Joshi, Bharat and Burgdorfer, Nathaniel and Batsosc, Konstantinos and Lid, Alberto Quattrini and Mordohaia, Philippos and Rekleitisb, Ioannis},
-  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
-  title={Real-Time Dense 3D Mapping of Underwater Environments}, 
-  year={2023},
-  pages={5184-5191},
-  doi={10.1109/ICRA48891.2023.10160266}}
-
-```
